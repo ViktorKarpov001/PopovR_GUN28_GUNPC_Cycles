@@ -1,0 +1,15 @@
+D:\VS_app_Test\Задания по С#\Programming in C#\PopovR_GUN28_GUNPC_Arrays\bin\Debug\net8.0\PopovR_GUN28_GUNPC_Arrays.exe
+D:\VS_app_Test\Задания по С#\Programming in C#\PopovR_GUN28_GUNPC_Arrays\bin\Debug\net8.0\PopovR_GUN28_GUNPC_Arrays.deps.json
+D:\VS_app_Test\Задания по С#\Programming in C#\PopovR_GUN28_GUNPC_Arrays\bin\Debug\net8.0\PopovR_GUN28_GUNPC_Arrays.runtimeconfig.json
+D:\VS_app_Test\Задания по С#\Programming in C#\PopovR_GUN28_GUNPC_Arrays\bin\Debug\net8.0\PopovR_GUN28_GUNPC_Arrays.dll
+D:\VS_app_Test\Задания по С#\Programming in C#\PopovR_GUN28_GUNPC_Arrays\bin\Debug\net8.0\PopovR_GUN28_GUNPC_Arrays.pdb
+D:\VS_app_Test\Задания по С#\Programming in C#\PopovR_GUN28_GUNPC_Arrays\obj\Debug\net8.0\PopovR_GUN28_GUNPC_Arrays.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS_app_Test\Задания по С#\Programming in C#\PopovR_GUN28_GUNPC_Arrays\obj\Debug\net8.0\PopovR_GUN28_GUNPC_Arrays.AssemblyInfoInputs.cache
+D:\VS_app_Test\Задания по С#\Programming in C#\PopovR_GUN28_GUNPC_Arrays\obj\Debug\net8.0\PopovR_GUN28_GUNPC_Arrays.AssemblyInfo.cs
+D:\VS_app_Test\Задания по С#\Programming in C#\PopovR_GUN28_GUNPC_Arrays\obj\Debug\net8.0\PopovR_GUN28_GUNPC_Arrays.csproj.CoreCompileInputs.cache
+D:\VS_app_Test\Задания по С#\Programming in C#\PopovR_GUN28_GUNPC_Arrays\obj\Debug\net8.0\PopovR_GUN28_GUNPC_Arrays.sourcelink.json
+D:\VS_app_Test\Задания по С#\Programming in C#\PopovR_GUN28_GUNPC_Arrays\obj\Debug\net8.0\PopovR_GUN28_GUNPC_Arrays.dll
+D:\VS_app_Test\Задания по С#\Programming in C#\PopovR_GUN28_GUNPC_Arrays\obj\Debug\net8.0\refint\PopovR_GUN28_GUNPC_Arrays.dll
+D:\VS_app_Test\Задания по С#\Programming in C#\PopovR_GUN28_GUNPC_Arrays\obj\Debug\net8.0\PopovR_GUN28_GUNPC_Arrays.pdb
+D:\VS_app_Test\Задания по С#\Programming in C#\PopovR_GUN28_GUNPC_Arrays\obj\Debug\net8.0\PopovR_GUN28_GUNPC_Arrays.genruntimeconfig.cache
+D:\VS_app_Test\Задания по С#\Programming in C#\PopovR_GUN28_GUNPC_Arrays\obj\Debug\net8.0\ref\PopovR_GUN28_GUNPC_Arrays.dll
