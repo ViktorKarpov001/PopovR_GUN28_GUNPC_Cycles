@@ -1,0 +1,15 @@
+D:\VS_app_Test\Задания по С#\Programming in C#\Classes\PopovR_GUN28_Classes\bin\Debug\net8.0\PopovR_GUN28_Classes.exe
+D:\VS_app_Test\Задания по С#\Programming in C#\Classes\PopovR_GUN28_Classes\bin\Debug\net8.0\PopovR_GUN28_Classes.deps.json
+D:\VS_app_Test\Задания по С#\Programming in C#\Classes\PopovR_GUN28_Classes\bin\Debug\net8.0\PopovR_GUN28_Classes.runtimeconfig.json
+D:\VS_app_Test\Задания по С#\Programming in C#\Classes\PopovR_GUN28_Classes\bin\Debug\net8.0\PopovR_GUN28_Classes.dll
+D:\VS_app_Test\Задания по С#\Programming in C#\Classes\PopovR_GUN28_Classes\bin\Debug\net8.0\PopovR_GUN28_Classes.pdb
+D:\VS_app_Test\Задания по С#\Programming in C#\Classes\PopovR_GUN28_Classes\obj\Debug\net8.0\PopovR_GUN28_Classes.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS_app_Test\Задания по С#\Programming in C#\Classes\PopovR_GUN28_Classes\obj\Debug\net8.0\PopovR_GUN28_Classes.AssemblyInfoInputs.cache
+D:\VS_app_Test\Задания по С#\Programming in C#\Classes\PopovR_GUN28_Classes\obj\Debug\net8.0\PopovR_GUN28_Classes.AssemblyInfo.cs
+D:\VS_app_Test\Задания по С#\Programming in C#\Classes\PopovR_GUN28_Classes\obj\Debug\net8.0\PopovR_GUN28_Classes.csproj.CoreCompileInputs.cache
+D:\VS_app_Test\Задания по С#\Programming in C#\Classes\PopovR_GUN28_Classes\obj\Debug\net8.0\PopovR_GUN28_Classes.sourcelink.json
+D:\VS_app_Test\Задания по С#\Programming in C#\Classes\PopovR_GUN28_Classes\obj\Debug\net8.0\PopovR_GUN28_Classes.dll
+D:\VS_app_Test\Задания по С#\Programming in C#\Classes\PopovR_GUN28_Classes\obj\Debug\net8.0\refint\PopovR_GUN28_Classes.dll
+D:\VS_app_Test\Задания по С#\Programming in C#\Classes\PopovR_GUN28_Classes\obj\Debug\net8.0\PopovR_GUN28_Classes.pdb
+D:\VS_app_Test\Задания по С#\Programming in C#\Classes\PopovR_GUN28_Classes\obj\Debug\net8.0\PopovR_GUN28_Classes.genruntimeconfig.cache
+D:\VS_app_Test\Задания по С#\Programming in C#\Classes\PopovR_GUN28_Classes\obj\Debug\net8.0\ref\PopovR_GUN28_Classes.dll
