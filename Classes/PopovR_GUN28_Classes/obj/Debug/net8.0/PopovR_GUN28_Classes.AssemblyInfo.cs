@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PopovR_GUN28_Classes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d919552b519ae50276693a8a7946f7e25394855")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+381b63263570b66dc69136be9b669c3d69600d8c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PopovR_GUN28_Classes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PopovR_GUN28_Classes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

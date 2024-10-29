@@ -3,9 +3,9 @@
     public class Weapon
     {
         public string Name { get; }
-        public int _minDamage { get; private set; }
-        public int _maxDamage { get; private set; }
-        public float _durability { get; }
+        public int MinDamage { get; private set; }
+        public int MaxDamage { get; private set; }
+        public float Durability { get; } = 1f;
 
         public Weapon(string name = "Weapon")
         {
@@ -14,39 +14,31 @@
 
         public Weapon(string name, int minDamage, int maxDamage) : this(name)
         {
-            _minDamage = minDamage;
-            _maxDamage = maxDamage;
+            MinDamage = minDamage;
+            MaxDamage = maxDamage;
             SetDamageParams(minDamage, maxDamage);
         }
 
         public void SetDamageParams(int minDamage, int maxDamage) 
         {
-            int f = 1;
+            minDamage = 1;
+            maxDamage = 10;
             if (minDamage < 1)
             {
-                minDamage = f;
+                minDamage = 1;
                 Console.WriteLine("Forced setting of the minimum value");
             }
-            
-            else if (maxDamage <= 1) 
-            { 
+
+            else if (maxDamage <= 1)
+            {
                 maxDamage = 10;
             }
-
-            if (minDamage > maxDamage)
-            {
-                var swapDamage = minDamage;
-                minDamage = maxDamage;
-                maxDamage = swapDamage;
-            }
-            return;
         }
 
-        public void GetDamage() 
+        public int GetDamage() 
         {
-            SetDamageParams(_minDamage, _maxDamage);
-            int averageDamage = _minDamage + _maxDamage;
-            Console.WriteLine("The arithmetic mean of the entered numbers = " + (int)averageDamage / 2);
+            int averageDamage = (MaxDamage - MinDamage) / 2;
+            return averageDamage;
         }
     }
 }
