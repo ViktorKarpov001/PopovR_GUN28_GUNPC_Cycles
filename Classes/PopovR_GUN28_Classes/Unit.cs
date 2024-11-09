@@ -5,42 +5,30 @@
         public string Name { get; }
         private float _health;
         public float Health => _health;
-        public float _armor;
-        public int _damage;
-        
+        public int Damage { get; }
+        public float Armor { get; }
 
-        public Unit() : this(name: "Unknown Unit") { }
+        public Unit() : this("Unknown Unit") { }
 
-        public Unit(string name) => Name = name;
-        
-
-        public int Damage
+        public Unit(string name)
         {
-            get { return _damage = 5; }
+            Name = name;
+            _health = 100f;
+            Damage = 5;
+            Armor = 0.6f;
         }
 
-        public float Armor 
-        { 
-            get { return _armor = 0.6f; }
+        public float GetRealHealth()
+        {
+            return _health * (1f + Armor);
         }
 
-        public float GetRealHealth() => Health * (1f + Armor);
-
-        public bool SetDamage(float setDamage)
+        public bool SetDamage(float value)
         {
-            setDamage = Health - 1f * Armor;
-
-            if (Health <= 0f)
-            {
-                return true;
-            }
-            else if (Health > 0f)
-            {
-                return false;
-            }
-            return false;
+            _health -= value * Armor;
+            return _health <= 0f;
         }
     }
-    
+
 }
 

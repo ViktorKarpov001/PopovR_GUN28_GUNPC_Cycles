@@ -3,42 +3,57 @@
     public class Weapon
     {
         public string Name { get; }
-        public int MinDamage { get; private set; }
-        public int MaxDamage { get; private set; }
-        public float Durability { get; } = 1f;
+        private int _minDamage;
+        private int _maxDamage;
+        public float Durability { get; }
 
-        public Weapon(string name = "Weapon")
+        public int MinDamage
+        {
+            get => _minDamage;
+            private set => _minDamage = value;
+        }
+
+        public int MaxDamage
+        {
+            get => _maxDamage;
+            private set => _maxDamage = value;
+        }
+
+        public Weapon(string name)
         {
             Name = name;
+            Durability = 1f;
         }
 
         public Weapon(string name, int minDamage, int maxDamage) : this(name)
         {
-            MinDamage = minDamage;
-            MaxDamage = maxDamage;
             SetDamageParams(minDamage, maxDamage);
         }
 
-        public void SetDamageParams(int minDamage, int maxDamage) 
+        private void SetDamageParams(int minDamage, int maxDamage)
         {
-            minDamage = 1;
-            maxDamage = 10;
+            if (minDamage > maxDamage)
+            {
+                (minDamage, maxDamage) = (maxDamage, minDamage);
+                Console.WriteLine($"Некорректные входные данные для оружия '{Name}': _minDamage больше _maxDamage.");
+            }
+
             if (minDamage < 1)
             {
-                minDamage = 1;
-                Console.WriteLine("Forced setting of the minimum value");
+                MinDamage = 1;
+                Console.WriteLine($"Форсированная установка минимального значения для оружия '{Name}'.");
+            }
+            else
+            {
+                MinDamage = minDamage;
             }
 
-            else if (maxDamage <= 1)
-            {
-                maxDamage = 10;
-            }
+            MaxDamage = maxDamage <= 1 ? 10 : maxDamage;
         }
 
-        public int GetDamage() 
+        public int GetDamage()
         {
-            int averageDamage = (MaxDamage - MinDamage) / 2;
-            return averageDamage;
+            return (MinDamage + MaxDamage) / 2;
         }
     }
 }
