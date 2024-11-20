@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("PopovR_GUN28_Classes")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("GamePrototype")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+258ec276751f21b13113907ea0b8f14f4abc633d")]
-[assembly: System.Reflection.AssemblyProductAttribute("PopovR_GUN28_Classes")]
-[assembly: System.Reflection.AssemblyTitleAttribute("PopovR_GUN28_Classes")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53276bbb748d623f0c372e958da48fc21b1b7a40")]
+[assembly: System.Reflection.AssemblyProductAttribute("GamePrototype")]
+[assembly: System.Reflection.AssemblyTitleAttribute("GamePrototype")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
